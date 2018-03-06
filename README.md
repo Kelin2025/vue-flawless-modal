@@ -2,6 +2,10 @@
 
 The last modal you need
 
+## Playground
+
+[**Go to codesandbox**](https://codesandbox.io/s/ql8xvnr3yq)
+
 ## Installation
 
 1.  Install via NPM
