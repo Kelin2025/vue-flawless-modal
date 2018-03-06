@@ -4,7 +4,7 @@ The last modal you need
 
 ## Playground
 
-[**Go to codesandbox**](https://codesandbox.io/s/ql8xvnr3yq)
+[**Go to codesandbox**](https://codesandbox.io/s/v3jx96jjl0)
 
 ## Installation
 
