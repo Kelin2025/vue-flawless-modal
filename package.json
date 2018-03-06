@@ -1,0 +1,13 @@
+{
+  "name": "vue-flawless-modal",
+  "version": "0.1.0",
+  "description": "The last modal you need",
+  "main": "index.js",
+  "repository": "https://github.com/kelin2025/vue-flawless-modal",
+  "author": "kelin2025",
+  "license": "MIT",
+  "dependencies": {
+    "nanoevents": "^1.0.2",
+    "portal-vue": "^1.3.0"
+  }
+}
