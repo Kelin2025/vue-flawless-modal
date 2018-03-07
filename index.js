@@ -1,3 +1,4 @@
+import PortalVue from 'portal-vue'
 import NanoEvents from 'nanoevents'
 import ModalRoot from './src/ModalRoot'
 import ModalWindow from './src/ModalWindow'
@@ -23,6 +24,7 @@ export const modal = {
 }
 
 export default Vue => {
+  Vue.use(PortalVue)
   Vue.component('modal-root', ModalRoot)
   Vue.component('modal-window', ModalWindow)
   Vue.mixin({

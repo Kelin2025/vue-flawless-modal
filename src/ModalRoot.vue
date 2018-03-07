@@ -3,10 +3,7 @@
 </template>
 
 <script>
-import PortalTarget from 'portal-vue/src/components/portal-target'
-
 export default {
-  components: { PortalTarget },
   props: {
     name: {
       type: String,

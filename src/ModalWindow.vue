@@ -24,10 +24,8 @@
 
 <script>
 import { modal } from './index'
-import Portal from 'portal-vue/src/components/portal'
 
 export default {
-  components: { Portal },
   props: {
     value: {
       type: Boolean,
