@@ -8,8 +8,6 @@ The last modal you need
 
 ## Installation
 
-> **NOTE:** it uses portal-vue sources so you might need `babel-plugin-vue-jsx` or `babel-plugin-vue-jsx-merge-props`. I'll fix it a little later
-
 1.  Install via NPM
 
 ```
