@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { modal } from './index'
+import { modal } from '../index'
 
 export default {
   props: {
