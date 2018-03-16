@@ -2,8 +2,8 @@
   <portal :to="target" v-if="isOpened">
     <transition :name="`modal-${animation}`">
       <div v-bind="$attrs" v-on="$listeners" :class="overlayClass" @click.self="handleOverlay" v-if="isOpened">
-        <div :class="modalClass" key="modal-window">
-          <span v-if="closeButton" @click.prevent="close" class="close-icon">
+        <div :class="modalClass" key="modal-window" role="dialog" :aria-label="name">
+          <span v-if="closeButton" aria-label="Close" @click.prevent="close" class="close-icon">
             <svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
               <g fill="none" fill-rule="evenodd" istroke="none">
                 <g transform="translate(-288 -12)" fill="#444" fill-rule="nonzero">
